@@ -1,0 +1,1066 @@
+/* zero */
+body {
+    font-family: "El Messiri", sans-serif;
+    background: #162831;
+  }
+  
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    max-width: 1298px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .strip__header {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ffffff;
+  }
+  @font-face {
+    font-family: "Proxima Nova";
+    src: url(../font/proximanova_extrabold.otf);
+  }
+  @font-face {
+    font-family: "Proxima Nova";
+    src: url(../font/proximanova_bold.otf);
+  }
+  
+  @font-face {
+    font-family: "Proxima Nova";
+    src: url(../font/proximanova_regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "Proxima Nova";
+    src: url(../font/proximanova_light.otf);
+  }
+  
+  /* HEADER */
+  
+  .nav__menu {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    max-width: 60px;
+    width: 100%;
+    height: 60px;
+  }
+  
+  .logo_img {
+    background: url(../img/icon/logo.svg) no-repeat center;
+    max-width: 60px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+  }
+  
+  .link_nav {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    color: #ffffff;
+    margin-right: 50px;
+  }
+  
+  .link_nav_page {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    color: #ffffff;
+    margin-right: 50px;
+  }
+  .link_nav_page:last-child {
+    margin-right: 0;
+  }
+  
+  .button__nuv {
+    max-width: 155px;
+    width: 100%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #018abe;
+    border-radius: 3px;
+    /* text */
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140%;
+    color: #ffffff;
+  }
+  
+  /* PROMO */
+  
+  .cont__promo {
+    margin-top: 50px;
+    background: url(../img/promo.png) no-repeat center;
+    height: 600px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .cont__promo::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+        0deg,
+        rgba(152, 201, 220, 0.5),
+        rgba(152, 201, 220, 0.5)
+      ),
+      url(.jpg);
+    border-radius: 10px;
+    z-index: -1;
+  }
+  
+  .sup__title_promo {
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 136px;
+    position: relative;
+  }
+  
+  .sup__title_promo::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    top: 140px;
+    left: 450px;
+    background: url(../img/icon/Rectangl3.svg);
+  }
+  
+  .sup__title_promo::before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    top: 140px;
+    left: 820px;
+    background: url(../img/icon/Rectangle5.svg);
+  }
+  
+  .title__promo {
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 40px;
+    max-width: 587px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  /* SESSION */
+  
+  .sessions {
+    margin-top: 150px;
+  }
+  
+  .block__sessions {
+    position: relative;
+  }
+  
+  .title__siss {
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 100px;
+    position: relative;
+  }
+  
+  .title__siss::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    top: 17px;
+    left: 415px;
+    background: url(../img/icon/Rectangle6.svg);
+  }
+  
+  .title__siss::before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    top: 17px;
+    left: 855px;
+    background: url(../img/icon/Rectangle7.svg);
+  }
+  
+  .card__block_siss {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 24px;
+  }
+  
+  .small__siss {
+    margin-bottom: 14px;
+  }
+  
+  .big__img__box {
+    position: relative;
+  }
+  
+  .small_box__img {
+    position: relative;
+  }
+  
+  .last__img__box {
+    position: relative;
+  }
+  .text__img {
+    position: absolute;
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #ffffff;
+    top: 470px;
+    left: 50px;
+  }
+  
+  .text__img_one {
+    position: absolute;
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #ffffff;
+    top: 190px;
+    left: 40px;
+    max-width: 336px;
+    width: 100%;
+  }
+  
+  .text__img_two {
+    position: absolute;
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #ffffff;
+    top: 470px;
+    left: 40px;
+    max-width: 336px;
+    width: 100%;
+  }
+  
+  .text__img__free {
+    position: absolute;
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #ffffff;
+    top: 439px;
+    left: 40px;
+    max-width: 336px;
+    width: 100%;
+  }
+  
+  .text__img__four {
+    position: absolute;
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #ffffff;
+    top: 162px;
+    left: 40px;
+    max-width: 336px;
+    width: 100%;
+  }
+  
+  .big__img__box::before {
+    position: absolute;
+    content: "";
+    max-width: 416px;
+    height: 7px;
+    width: 100%;
+    top: 532px;
+    left: 0;
+    background: #018abe;
+    border-radius: 0px 0px 10px 10px;
+  }
+  
+  /* REVIEWS */
+  
+  .reviews {
+    margin-top: 150px;
+  }
+  
+  .title__review {
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 100px;
+    position: relative;
+  }
+  
+  .title__review::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    top: 17px;
+    left: 500px;
+    background: url(../img/icon/Rectangle6.svg);
+  }
+  
+  .title__review::before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    top: 17px;
+    left: 770px;
+    background: url(../img/icon/Rectangle7.svg);
+  }
+  
+  .title__slide {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color: #ffffff;
+  }
+  
+  .text_slide {
+    margin-top: 20px;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    margin-bottom: 10px;
+    color: #ffffff;
+    max-width: 516px;
+    width: 100%;
+  }
+  
+  .text_slide:last-child {
+    margin-bottom: 0px;
+  }
+  
+  .slide_one {
+    background: #018abe;
+    border-radius: 10px;
+    max-width: 636px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 56px;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  
+  .slide__bar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .slide_two {
+    background: #018abe;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 47px;
+    padding-right: 45px;
+    padding-left: 45px;
+    position: absolute;
+    right: 1000px;
+    top: 50px;
+    opacity: 0.4;
+  }
+  
+  .slide_free {
+    background: #018abe;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 47px;
+    padding-right: 45px;
+    padding-left: 45px;
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+    opacity: 0.4;
+  }
+  
+  .title__slide_pass {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ffffff;
+  }
+  
+  .text_slide__pass {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 140%;
+    color: #ffffff;
+  }
+  
+  .block__count {
+    padding-top: 60px;
+    display: flex;
+    max-width: 124px;
+    width: 100%;
+    height: 20px;
+    justify-content: space-between;
+    margin: auto;
+  }
+  
+  .count__active {
+    display: flex;
+    max-width: 16px;
+    width: 100%;
+    height: 16px;
+    background: #ffffff;
+    border-radius: 3px;
+  }
+  
+  .count {
+    display: flex;
+    max-width: 16px;
+    width: 100%;
+    height: 16px;
+    background: #ffffff;
+    opacity: 0.4;
+    border-radius: 3px;
+  }
+  
+  /* ABOUT US */
+  
+  .about__us {
+    margin-top: 150px;
+  }
+  
+  .title__us {
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+  }
+  .title__us::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    top: 17px;
+    left: 460px;
+    background: url(../img/icon/Rectangle6.svg);
+  }
+  
+  .title__us::before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    top: 17px;
+    left: 810px;
+    background: url(../img/icon/Rectangle7.svg);
+  }
+  
+  .title__us_cont {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  
+  .text__us {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ffffff;
+    max-width: 466px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .text__us:last-child {
+    margin-bottom: 0;
+  }
+  
+  .block__cont_sup {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .text_us__block {
+    padding-top: 70px;
+  }
+  
+  .block__cont_sub {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* PRICE */
+  
+  .price {
+    margin-top: 150px;
+  }
+  
+  .title__price {
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+  }
+  
+  .title__price::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    top: 17px;
+    left: 400px;
+    background: url(../img/icon/Rectangle6.svg);
+  }
+  
+  .title__price::before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    top: 17px;
+    left: 870px;
+    background: url(../img/icon/Rectangle7.svg);
+  }
+  
+  .name__price {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #ffffff;
+    margin-right: 23px;
+  }
+  
+  .money__price {
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: right;
+    color: #ffffff;
+  }
+  
+  .text_sub__coup {
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+  }
+  
+  .block__price {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .position_price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .position_price:last-child {
+    margin-bottom: 0;
+  }
+  
+  .price__money {
+    max-width: 470px;
+    width: 100%;
+    padding-top: 80px;
+  }
+  
+  /* FOOTER */
+  
+  .footer {
+    padding-top: 150px;
+  }
+  
+  .map iframe {
+    border-radius: 10px;
+  }
+  
+  .cont_one_block {
+    background: #018abe;
+    border-radius: 10px;
+    max-width: 392px;
+    width: 100%;
+    padding-top: 35px;
+    padding-left: 45px;
+    padding-bottom: 35px;
+    padding-right: 45px;
+  }
+  
+  .title_contact {
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .text_adress {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    color: #ffffff;
+    margin-bottom: 21px;
+    position: relative;
+  }
+  
+  .text_adress::after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url(../img/icon/carbonlocationfilled.svg);
+    top: 0;
+    left: -30px;
+  }
+  
+  .text_metro {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    color: #ffffff;
+    margin-bottom: 21px;
+    position: relative;
+  }
+  
+  .text_metro::after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url(../img/icon/Spbmetrologo1.svg);
+    top: 0;
+    left: -30px;
+  }
+  
+  .btn_recordsis {
+    background: #ffffff;
+    border-radius: 3px;
+    padding: 9px 15px 9px 15px;
+    /* text */
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140%;
+    color: #018abe;
+  }
+  
+  .text_record {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    color: #ffffff;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .text_record::after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url(../img/icon/bicalendarweekfill.svg);
+    top: 0;
+    left: -30px;
+  }
+  
+  .text_cont__block {
+    padding-left: 30px;
+  }
+  
+  .contact__block {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .block_contacts {
+    display: grid;
+    gap: 24px 0px;
+  }
+  
+  .sub__footer {
+    margin-top: 90px;
+    padding-bottom: 30px;
+  }
+  
+  .text_sub__footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .text__left {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135%;
+    text-align: right;
+    color: #ffffff;
+  }
+  
+  .text_right {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135%;
+    text-align: right;
+    color: #ffffff;
+  }
+  
+  /* ======================================== */
+  /* BLOG */
+  /*===========================================*/
+  .blog {
+    margin-top: 60px;
+  }
+  .title__blog {
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+  }
+  
+  .title__blog::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    top: 17px;
+    left: 530px;
+    background: url(../img/icon/Rectangle6.svg);
+  }
+  
+  .title__blog::before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    top: 17px;
+    left: 750px;
+    background: url(../img/icon/Rectangle7.svg);
+  }
+  
+  .date_info {
+    background: #018abe;
+    border-radius: 5px;
+    padding: 6px 12px 6px 12px;
+    /* text */
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135%;
+    color: #ffffff;
+  }
+  
+  .title_art {
+    margin-top: 30px;
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .text_art {
+    max-width: 564px;
+    width: 100%;
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  
+  .btn_read_art {
+    padding: 10px 20px 10px 20px;
+    background: #018abe;
+    border-radius: 5px;
+    /* text */
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135%;
+    color: #ffffff;
+  }
+  
+  .articles__one {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #018abe;
+    border-radius: 20px;
+    padding: 50px 60px 50px 60px;
+  }
+  
+  .articles__two {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #018abe;
+    border-radius: 20px;
+    padding: 50px 60px 50px 60px;
+  }
+  
+  .block__articles {
+    margin-top: 60px;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 120px;
+  }
+  
+  .footer_blog {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  /* ============================= */
+  /* newpage */
+  /* ============================== */
+  
+  .text_art_f {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ffffff;
+    max-width: 564px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .text_art_f:last-child {
+    margin-bottom: 0;
+  }
+  
+  .articl {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .title__article {
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    margin-bottom: 60px;
+  }
+  
+  .title__article::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    top: 17px;
+    left: 350px;
+    background: url(../img/icon/Rectangle6.svg);
+  }
+  
+  .title__article::before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    top: 17px;
+    left: 920px;
+    background: url(../img/icon/Rectangle7.svg);
+  }
+  
+  .block__article {
+    margin-top: 60px;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 161px;
+  }
+  
+  /* =============================== */
+  /* news */
+  /* ================================ */
+  
+  .title__news_pag {
+    margin-top: 60px;
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    margin-bottom: 60px;
+  }
+  
+  .title__news_pag::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    top: 17px;
+    left: 510px;
+    background: url(../img/icon/Rectangle6.svg);
+  }
+  
+  .title__news_pag::before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    top: 17px;
+    left: 760px;
+    background: url(../img/icon/Rectangle7.svg);
+  }
+  
+  .text_news_cart {
+    font-family: "El Messiri";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 140%;
+    color: #ffffff;
+    position: absolute;
+    top: 199px;
+    left: 35px;
+  }
+  
+  .cart_new {
+    position: relative;
+    margin-bottom: 24px;
+  }
+  
+  .date_info_new {
+    background: #018abe;
+    border-radius: 5px;
+    padding: 6px 12px 6px 12px;
+    /* text */
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135%;
+    color: #ffffff;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+  }
+  
+  .block_cart_news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 120px;
+  }
+  
